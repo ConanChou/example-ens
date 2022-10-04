@@ -8,7 +8,7 @@ import "contracts/wrapper/NameWrapper.sol";
 import "contracts/wrapper/StaticMetadataService.sol";
 import "@pwnednomore/contracts/Agent.sol";
 
-contract TestDomain is Agent {
+contract NameWrapperTest is Agent {
     ENSRegistry internal ens;
     BaseRegistrarImplementation internal baseRegistrar;
     StaticMetadataService internal metaDataService;

@@ -1237,10 +1237,10 @@
     web3 "^1.2.5"
     web3-utils "^1.2.5"
 
-"@pwnednomore/contracts@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@pwnednomore/contracts/-/contracts-1.0.2.tgz#c6a61391ac6e7c772b3dfd6056250e391bcdb7c1"
-  integrity sha512-/ayg33pm9X6MQJGb+4fB+wm5XClRiTwZDT6dR7TqAg/EnYYCFFsO8Iueoi/OKkdnNxIZjW7ynIDAGjPDlPtdIQ==
+"@pwnednomore/contracts@^1.0.13":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@pwnednomore/contracts/-/contracts-1.0.14.tgz#6452b64508a6dc80319ff3ac47f4a8bd505c4dd1"
+  integrity sha512-/xzB8RiiTWAxEVnMOgPgJukwxRbi/FD0FsFc6qWcde0ysd/JS7o5HzP476OV8l6xadCDXx0gpt0CWKuNt4fjEw==
 
 "@resolver-engine/core@^0.3.3":
   version "0.3.3"
@@ -4599,6 +4599,14 @@ eth-sig-util@3.0.0:
     tweetnacl "^1.0.0"
     tweetnacl-util "^0.15.0"
 
+eth-sig-util@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/eth-sig-util/-/eth-sig-util-1.4.2.tgz#8d958202c7edbaae839707fba6f09ff327606210"
+  integrity sha512-iNZ576iTOGcfllftB73cPB5AN+XUQAT/T8xzsILsghXC1o8gJUqe3RHlcDqagu+biFpYQ61KQrZZJza8eRSYqw==
+  dependencies:
+    ethereumjs-abi "git+https://github.com/ethereumjs/ethereumjs-abi.git"
+    ethereumjs-util "^5.1.1"
+
 eth-tx-summary@^3.1.2:
   version "3.2.4"
   resolved "https://registry.npmjs.org/eth-tx-summary/-/eth-tx-summary-3.2.4.tgz"
@@ -4698,6 +4706,13 @@ ethereumjs-abi@0.6.8, ethereumjs-abi@^0.6.8:
   version "0.6.8"
   resolved "https://registry.npmjs.org/ethereumjs-abi/-/ethereumjs-abi-0.6.8.tgz"
   integrity sha512-Tx0r/iXI6r+lRsdvkFDlut0N08jWMnKRZ6Gkq+Nmw75lZe4e6o3EkSnkaBP5NF6+m5PTGAr9JP43N3LyeoglsA==
+  dependencies:
+    bn.js "^4.11.8"
+    ethereumjs-util "^6.0.0"
+
+"ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
+  version "0.6.8"
+  resolved "git+https://github.com/ethereumjs/ethereumjs-abi.git#ee3994657fa7a427238e6ba92a84d0b529bbcde0"
   dependencies:
     bn.js "^4.11.8"
     ethereumjs-util "^6.0.0"
