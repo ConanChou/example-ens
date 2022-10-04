@@ -31,7 +31,7 @@ contract ExpiryTest is NameWrapperTest {
         );
     }
 
-    function invariantExpiryOrderB() public {
+    function invariantExpiryOrderC() public {
         // INVARIANT:
         // A parent domain always expires later than a child domain
         require(
